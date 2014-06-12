@@ -1,0 +1,355 @@
+analysisDir: analysis
+experimentName: Spider Gait Ablations
+workingDir: .
+subjects:
+- subject: maleLargeWolf_0_20120411
+  workingDir: .
+  analysisDir: .
+  weightData: {rawWeight: {analysisDir: weight, workingDir: ., rawWeight: 0.001}, weighMethod: raw}
+  trials:
+  - id: 17
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: maleLargeWolf_0_20120411_run0017_analysis
+    analysisDir: maleLargeWolf_0_20120411_run0017_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolf_0_20120411_run0017_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 500, trimEnd: -150, trialType: intact}
+  - id: 41
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: maleLargeWolfAblated_0_20120411_run0041_analysis
+    analysisDir: maleLargeWolfAblated_0_20120411_run0041_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolfAblated_0_20120411_run0041_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 600, trimEnd: -160, trialType: ablated}
+  - id: 4 #FIXME
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: maleLargeWolf_0_20120411_run0004_analysis
+    analysisDir: maleLargeWolf_0_20120411_run0004_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolf_0_20120411_run0004_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 200, trimEnd: -100, trialType: intact, smoothfactor: 30 }
+  - id: 5 # FIXME
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: maleLargeWolf_0_20120411_run0005_analysis
+    analysisDir: maleLargeWolf_0_20120411_run0005_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolf_0_20120411_run0005_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 250, trimEnd: -1, trialType: intact, smoothfactor: 30 }
+  - id: 6 # FIXME
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: maleLargeWolf_0_20120411_run0006_analysis
+    analysisDir: maleLargeWolf_0_20120411_run0006_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolf_0_20120411_run0006_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 300, trimEnd: -100, trialType: intact, smoothfactor: 25 }
+  - id: 7
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: maleLargeWolf_0_20120411_run0007_analysis
+    analysisDir: maleLargeWolf_0_20120411_run0007_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolf_0_20120411_run0007_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 200, trimEnd: -10, trialType: intact, smoothfactor: 30}
+  - id: 8 # FIXING END 
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: maleLargeWolf_0_20120411_run0008_analysis
+    analysisDir: maleLargeWolf_0_20120411_run0008_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolf_0_20120411_run0008_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 300, trimEnd: -1, trialType: intact, smoothfactor: 25}
+  - id: 31
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: maleLargeWolfAblated_0_20120411_run0031_analysis
+    analysisDir: maleLargeWolfAblated_0_20120411_run0031_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolfAblated_0_20120411_run0031_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 140, trimEnd: 300, trialType: ablated}
+  - id: 33
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: maleLargeWolfAblated_0_20120411_run0033_analysis
+    analysisDir: maleLargeWolfAblated_0_20120411_run0033_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolfAblated_0_20120411_run0033_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 300, trimEnd: 600, trialType: ablated}
+  - id: 34
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: maleLargeWolfAblated_0_20120411_run0034_analysis
+    analysisDir: maleLargeWolfAblated_0_20120411_run0034_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolfAblated_0_20120411_run0034_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 150, trimEnd: 450, trialType: ablated}
+  - id: 35
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: maleLargeWolfAblated_0_20120411_run0035_analysis
+    analysisDir: maleLargeWolfAblated_0_20120411_run0035_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolfAblated_0_20120411_run0035_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 250, trimEnd: 500, trialType: ablated}
+  - id: 37
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: maleLargeWolfAblated_0_20120411_run0037_analysis
+    analysisDir: maleLargeWolfAblated_0_20120411_run0037_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolfAblated_0_20120411_run0037_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 400, trimEnd: 1000, trialType: ablated}
+
+- subject: femalLargeWolf_1_20120411
+  workingDir: .
+  analysisDir: .
+  weightData: {rawWeight: {analysisDir: weight, workingDir: ., rawWeight: 0.001}, weighMethod: raw}
+  trials:
+  - id: 0
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: femalLargeWolf_1_20120411_run0000_analysis
+    analysisDir: femalLargeWolf_1_20120411_run0000_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femalLargeWolf_1_20120411_run0000_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 100, trimEnd: 300, trialType: intact}
+  - id: 2
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: femalLargeWolf_1_20120411_run0002_analysis
+    analysisDir: femalLargeWolf_1_20120411_run0002_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femalLargeWolf_1_20120411_run0002_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 125, trimEnd: 275, trialType: intact}
+  - id: 3
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: femalLargeWolf_1_20120411_run0003_analysis
+    analysisDir: femalLargeWolf_1_20120411_run0003_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femalLargeWolf_1_20120411_run0003_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 50, trimEnd: 300, trialType: intact}
+  - id: 6
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: femalLargeWolf_1_20120411_run0006_analysis
+    analysisDir: femalLargeWolf_1_20120411_run0006_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femalLargeWolf_1_20120411_run0006_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 100, trimEnd: 800, trialType: intact}
+  - id: 32
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: femalLargeWolfAblated_1_20120411_run0032_analysis
+    analysisDir: femalLargeWolfAblated_1_20120411_run0032_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femalLargeWolfAblated_1_20120411_run0032_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 200, trimEnd: 550, trialType: ablated}
+  - id: 33
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: femalLargeWolfAblated_1_20120411_run0033_analysis
+    analysisDir: femalLargeWolfAblated_1_20120411_run0033_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femalLargeWolfAblated_1_20120411_run0033_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 100, trimEnd: 700, trialType: ablated}
+  - id: 36
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: femalLargeWolfAblated_1_20120411_run0036_analysis
+    analysisDir: femalLargeWolfAblated_1_20120411_run0036_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femalLargeWolfAblated_1_20120411_run0036_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 200, trimEnd: 400, trialType: ablated}
+  - id: 38
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: femalLargeWolfAblated_1_20120411_run0038_analysis
+    analysisDir: femalLargeWolfAblated_1_20120411_run0038_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femalLargeWolfAblated_1_20120411_run0038_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 300, trimEnd: 700, trialType: ablated}
+  - id: 39
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: femalLargeWolfAblated_1_20120411_run0039_analysis
+    analysisDir: femalLargeWolfAblated_1_20120411_run0039_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femalLargeWolfAblated_1_20120411_run0039_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 200, trimEnd: 400, trialType: ablated}
+
+- subject: maleLargeWolf_2_20120514
+  workingDir: .
+  analysisDir: .
+  weightData: {rawWeight: {analysisDir: weight, workingDir: ., rawWeight: 0.001}, weighMethod: raw}
+  trials:
+  - id: 1
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: maleLargeWolf_2_20120514_run0001_analysis
+    analysisDir: maleLargeWolf_2_20120514_run0001_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolf_2_20120514_run0001_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 50, trimEnd: 500, trialType: intact}
+  - id: 2
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: maleLargeWolf_2_20120514_run0002_analysis
+    analysisDir: maleLargeWolf_2_20120514_run0002_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolf_2_20120514_run0002_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 250, trimEnd: 800, trialType: intact}
+  - id: 3
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: maleLargeWolf_2_20120514_run0003_analysis
+    analysisDir: maleLargeWolf_2_20120514_run0003_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolf_2_20120514_run0003_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 600, trimEnd: 1100, trialType: intact}
+  - id: 4
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: maleLargeWolf_2_20120514_run0004_analysis
+    analysisDir: maleLargeWolf_2_20120514_run0004_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolf_2_20120514_run0004_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 0, trimEnd: 250, trialType: intact}
+  - id: 5
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: maleLargeWolf_2_20120514_run0005_analysis
+    analysisDir: maleLargeWolf_2_20120514_run0005_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolf_2_20120514_run0005_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 1300, trimEnd: 1800, trialType: intact}
+  - id: 33
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: maleLargeWolfAblated_2_20120515_run0033_analysis
+    analysisDir: maleLargeWolfAblated_2_20120515_run0033_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolfAblated_2_20120515_run0033_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 0, trimEnd: 800, trialType: ablated}
+  - id: 34
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: maleLargeWolfAblated_2_20120515_run0034_analysis
+    analysisDir: maleLargeWolfAblated_2_20120515_run0034_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolfAblated_2_20120515_run0034_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 0, trimEnd: 600, trialType: ablated}
+  - id: 36
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: maleLargeWolfAblated_2_20120515_run0036_analysis
+    analysisDir: maleLargeWolfAblated_2_20120515_run0036_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolfAblated_2_20120515_run0036_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 400, trimEnd: 850, trialType: ablated}
+  - id: 37
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: maleLargeWolfAblated_2_20120515_run0037_analysis
+    analysisDir: maleLargeWolfAblated_2_20120515_run0037_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: maleLargeWolfAblated_2_20120515_run0037_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 100, trimEnd: 900, trialType: ablated}
+
+- subject: femaleLargeWolf_5_20120516
+  workingDir: .
+  analysisDir: .
+  weightData: {rawWeight: {analysisDir: weight, workingDir: ., rawWeight: 0.001}, weighMethod: raw}
+  trials:
+  - id: 0
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: femaleLargeWolf_5_20120516_run0000_analysis
+    analysisDir: femaleLargeWolf_5_20120516_run0000_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femaleLargeWolf_5_20120516_run0000_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 350, trimEnd: 800, trialType: intact}
+  - id: 1
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: femaleLargeWolf_5_20120516_run0001_analysis
+    analysisDir: femaleLargeWolf_5_20120516_run0001_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femaleLargeWolf_5_20120516_run0001_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 0, trimEnd: 600, trialType: intact}
+  - id: 3
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: femaleLargeWolf_5_20120516_run0003_analysis
+    analysisDir: femaleLargeWolf_5_20120516_run0003_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femaleLargeWolf_5_20120516_run0003_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 0, trimEnd: 400, trialType: intact}
+  - id: 4
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: femaleLargeWolf_5_20120516_run0004_analysis
+    analysisDir: femaleLargeWolf_5_20120516_run0004_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femaleLargeWolf_5_20120516_run0004_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 0, trimEnd: 200, trialType: intact}
+  - id: 5
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: femaleLargeWolf_5_20120516_run0005_analysis
+    analysisDir: femaleLargeWolf_5_20120516_run0005_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femaleLargeWolf_5_20120516_run0005_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 0, trimEnd: 500, trialType: intact}
+  - id: 32
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: femaleLargeWolfAblated_5_20120518_run0032_analysis
+    analysisDir: femaleLargeWolfAblated_5_20120518_run0032_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femaleLargeWolfAblated_5_20120518_run0032_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 200, trimEnd: 450, trialType: ablated}
+  - id: 34
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: femaleLargeWolfAblated_5_20120518_run0034_analysis
+    analysisDir: femaleLargeWolfAblated_5_20120518_run0034_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femaleLargeWolfAblated_5_20120518_run0034_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 100, trimEnd: 250, trialType: ablated}
+  - id: 35
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: femaleLargeWolfAblated_5_20120518_run0035_analysis
+    analysisDir: femaleLargeWolfAblated_5_20120518_run0035_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femaleLargeWolfAblated_5_20120518_run0035_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 100, trimEnd: 800, trialType: ablated}
+  - id: 36
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: femaleLargeWolfAblated_5_20120518_run0036_analysis
+    analysisDir: femaleLargeWolfAblated_5_20120518_run0036_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femaleLargeWolfAblated_5_20120518_run0036_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 100, trimEnd: 650, trialType: ablated}
+
+- subject: femaleLargeWolf_6_20120516
+  workingDir: .
+  analysisDir: .
+  weightData: {rawWeight: {analysisDir: weight, workingDir: ., rawWeight: 0.001}, weighMethod: raw}
+  trials:
+  - id: 1
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: femaleLargeWolf_6_20120516_run0001_analysis
+    analysisDir: femaleLargeWolf_6_20120516_run0001_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femaleLargeWolf_6_20120516_run0001_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 300, trimEnd: 600, trialType: intact}
+  - id: 4
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: femaleLargeWolf_6_20120516_run0004_analysis
+    analysisDir: femaleLargeWolf_6_20120516_run0004_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femaleLargeWolf_6_20120516_run0004_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 300, trimEnd: 900, trialType: intact}
+  - id: 5
+    trialType: intact
+    getPosSpeedFromImgs: True
+    workingDir: femaleLargeWolf_6_20120516_run0005_analysis
+    analysisDir: femaleLargeWolf_6_20120516_run0005_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femaleLargeWolf_6_20120516_run0005_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 120, trimEnd: 420, trialType: intact}
+  - id: 31
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: femaleLargeWolfAblated_6_20120518_run0031_analysis
+    analysisDir: femaleLargeWolfAblated_6_20120518_run0031_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femaleLargeWolfAblated_6_20120518_run0031_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 50, trimEnd: 300, trialType: ablated}
+  - id: 33
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: femaleLargeWolfAblated_6_20120518_run0033_analysis
+    analysisDir: femaleLargeWolfAblated_6_20120518_run0033_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femaleLargeWolfAblated_6_20120518_run0033_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 0, trimEnd: 900, trialType: ablated}
+  - id: 34
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: femaleLargeWolfAblated_6_20120518_run0034_analysis
+    analysisDir: femaleLargeWolfAblated_6_20120518_run0034_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femaleLargeWolfAblated_6_20120518_run0034_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 600, trimEnd: 1000, trialType: ablated}
+  - id: 35
+    trialType: ablated
+    getPosSpeedFromImgs: False
+    workingDir: femaleLargeWolfAblated_6_20120518_run0035_analysis
+    analysisDir: femaleLargeWolfAblated_6_20120518_run0035_analysis
+    spiderTarsiTrackData: {analysisDir: ., fileName: femaleLargeWolfAblated_6_20120518_run0035_analysis.mat,
+      sampleRate: 1000.0, workingDir: ., trimStart: 0, trimEnd: 600, trialType: ablated}
